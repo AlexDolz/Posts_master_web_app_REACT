@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Posts_master_web_app_REACT/static/css/main.7307458d.css",
+    "main.js": "/Posts_master_web_app_REACT/static/js/main.80a3196d.js",
+    "index.html": "/Posts_master_web_app_REACT/index.html",
+    "main.7307458d.css.map": "/Posts_master_web_app_REACT/static/css/main.7307458d.css.map",
+    "main.80a3196d.js.map": "/Posts_master_web_app_REACT/static/js/main.80a3196d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7307458d.css",
+    "static/js/main.80a3196d.js"
+  ]
+}
