@@ -1,0 +1,63 @@
+.post__item {
+  border: 1px solid teal;
+  margin-bottom: 20px;
+  padding: 50px 40px 30px 40px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 10px;
+  position: relative;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.12),
+    0 4px 4px rgba(0, 0, 0, 0.12), 0 8px 8px rgba(0, 0, 0, 0.12),
+    0 16px 16px rgba(0, 0, 0, 0.12);
+}
+
+.like__item {
+  padding: 6px;
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.post__description {
+  width: 225px;
+  word-wrap: break-word;
+}
+.underline {
+  width: 100%;
+  height: 5px;
+  background: teal;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.11), 0 2px 2px rgba(0, 0, 0, 0.11),
+    0 4px 4px rgba(0, 0, 0, 0.11), 0 6px 8px rgba(0, 0, 0, 0.11),
+    0 8px 16px rgba(0, 0, 0, 0.11);
+}
+
+.remove__mark {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  cursor: pointer;
+  border: 1px solid teal;
+  padding: 0 7px;
+  background: teal;
+  border-radius: 10px;
+  color: azure;
+  font-family: 'Sigmar', cursive;
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.remove__mark:hover {
+  color: rgb(226, 147, 0);
+}
+
+@media (max-width: 373px) {
+  .post__item {
+    padding: 55px 19px 30px 19px;
+  }
+}

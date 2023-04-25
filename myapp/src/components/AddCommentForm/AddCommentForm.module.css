@@ -1,0 +1,8 @@
+.add__comment__form {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  gap: 20px;
+}

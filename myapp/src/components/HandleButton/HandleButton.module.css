@@ -1,0 +1,13 @@
+.btn {
+  padding: 10px 15px;
+  cursor: pointer;
+  border: none;
+  background: teal;
+  color: white;
+  border-radius: 6px;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn:hover {
+  background: rgb(3, 158, 158);
+}

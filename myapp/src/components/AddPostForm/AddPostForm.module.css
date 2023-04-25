@@ -1,0 +1,18 @@
+.wrapper {
+  margin-bottom: 40px;
+}
+
+.inner {
+  display: flex;
+  gap: 8px;
+}
+
+.inner input {
+  padding: 5px;
+}
+
+@media (max-width: 500px) {
+  .inner {
+    flex-direction: column;
+  }
+}
