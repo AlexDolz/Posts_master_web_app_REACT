@@ -6,3 +6,6 @@
   width: 100%;
   gap: 20px;
 }
+.add__comment__form input {
+  padding: 5px;
+}

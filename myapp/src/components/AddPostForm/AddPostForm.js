@@ -20,7 +20,7 @@ const AddPostForm = ({ addPost }) => {
     <div className={s.wrapper}>
       <form className={s.inner} onSubmit={onSubmit}>
         <input name='title' type='text' placeholder='Title' />
-        <input name='text' type='text' placeholder='Text' />
+        <input name='text' type='text' placeholder='Description' />
         <HandleButton text='Public' />
       </form>
     </div>

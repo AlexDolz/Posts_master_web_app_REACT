@@ -15,7 +15,7 @@ const AddCommentForm = ({ id }) => {
 
   return (
     <form className={s.add__comment__form} onSubmit={onSubmit}>
-      <input type='text' name='text' />
+      <input type='text' name='text' placeholder='Your comment' />
       <HandleButton text='Add comment' />
     </form>
   );
