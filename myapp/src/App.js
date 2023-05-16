@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import AddPostForm from './components/AddPostForm/AddPostForm';
 import PostContainer from './components/PostContainer/PostContainer';
 import './App.css';
@@ -32,6 +32,15 @@ const App = () => {
     const updatedPosts = posts.filter(elem => elem.id !== id);
     setPosts(updatedPosts);
   };
+
+  useEffect(() => {
+    let updatedPosts = JSON.parse(localStorage.getItem('posts')) || posts;
+    setPosts(updatedPosts);
+  }, []);
+
+  useEffect(() => {
+    localStorage.setItem('posts', JSON.stringify(posts));
+  }, [posts]);
 
   return (
     <CommentContext.Provider
